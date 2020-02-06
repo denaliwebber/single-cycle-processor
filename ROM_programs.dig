@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quadratic_1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e24dd00c,e3a00001,e58d0000,e3a00002,e58d0004,e3a00003,e58d0008,e1a0000d,
+e3a01003,eb000000,eafffffe,e3a02000,e3a03000,e1520001,a000004,e590c000,e083300c,e2822001,
+e2800004,eafffff8,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\inclass\project06\sum_array_main_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="40" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>PN</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>D</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="100" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>r0: 2
+r1: 3
+r2: 4
+r3: 5
+Expected result = 25</string>
+        </entry>
+      </elementAttributes>
+      <pos x="280" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>sum_1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e24dd014,e3a00001,e58d0000,e3a00002,e58d0004,e3a00003,e58d0008,e3a00004,
+e58d000c,e3a00005,e58d0010,e1a0000d,e3a01005,eb000000,eafffffe,e3a02000,e3a03000,
+e1520001,a000004,e590c000,e083300c,e2822001,e2800004,eafffff8,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\sum_array_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>find_max1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e24dd014,e3a00005,e58d0000,e3a00007,e58d0004,e3a00002,e58d0008,e3a00001,
+e58d000c,e3a00009,e58d0010,e1a0000d,e3a01005,eb000000,eafffffe,e3a02000,e590c000,
+e1a0300c,e1520001,a000006,e2800004,e590c000,e15c0003,ba000000,e1a0300c,e2822001,eafffff6,
+e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\find_max_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>fib_iter(10)</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0000a,eb000000,eafffffe,e3500000,a00000c,e3a01000,e3a02000,e3a03001,e3a0c001,e150000c,
+a000004,e1a01002,e1a02003,e0823001,e28cc001,eafffff8,e1a00003,e12fff1e,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\fib_iter_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>fib_rec(10)</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0000a,e3a0d080,eb000000,eafffffe,e24dd010,e3500001,ca000000,ea00000b,e58de000,
+e58d0004,e2400001,ebfffff7,e58d0008,e59d0004,e2400002,ebfffff3,e1a01000,e59d0008,
+e0800001,e59de000,e28dd010,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\fib_rec_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quadratic_2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00007,e3a01000,e3a02004,e3a03000,e2433001,eb000000,eafffffe,e0020290,e0010190,
+e0010190,e0833001,e0833002,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\project6\quadratic_2.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>r0: 7
+r1: 0
+r2: 4
+r3: -1
+Expected result = 27</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Array: [1, 2, 3, 4, 5]
+Expected result = 15</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>sum_2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e24dd014,e3a00000,e2400004,e58d0000,e3a00000,e2400009,e58d0004,e3a00008,
+e58d0008,e3a00016,e58d000c,e3a00002,e58d0010,e1a0000d,e3a01005,eb000000,eafffffe,
+e3a02000,e3a03000,e1520001,a000004,e590c000,e083300c,e2822001,e2800004,eafffff8,e1a00003,
+e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\sum_2.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Array: [-4, -9, 8, 22, 2]
+Expected result = 19</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>find_max2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e24dd014,e3a00000,e58d0000,e3a00000,e2400005,e58d0004,e3a00000,e58d0008,
+e3a00003,e58d000c,e3a00001,e58d0010,e1a0000d,e3a01005,eb000000,eafffffe,e3a02000,
+e590c000,e1a0300c,e1520001,a000006,e2800004,e590c000,e15c0003,ba000000,e1a0300c,e2822001,
+eafffff6,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\find_max_2.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Array: [5, 7, 2, 1, 9]
+Expected result = 9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Array: [0, -5, 0, 3, 1]
+Expected result = 3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-80" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>fib_iter(10) = 55</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>fib_iter(19)</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00013,eb000000,eafffffe,e3500000,a00000c,e3a01000,e3a02000,e3a03001,e3a0c001,e150000c,
+a000004,e1a01002,e1a02003,e0823001,e28cc001,eafffff8,e1a00003,e12fff1e,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\fib_iter_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>fib_rec(19)</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00013,e3a0d080,eb000000,eafffffe,e24dd010,e3500001,ca000000,ea00000b,e58de000,
+e58d0004,e2400001,ebfffff7,e58d0008,e59d0004,e2400002,ebfffff3,e1a01000,e59d0008,
+e0800001,e59de000,e28dd010,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\cs315\projects\fib_rec_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>fib_iter(19) = 4181</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>fib_rec(10) = 55</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="1080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>17</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>fib_rec(19) = 4181</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>sum_test</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e24dd00c,e3a00001,e58d0000,e3a00002,e58d0004,e3a00003,e58d0008,e1a0000d,
+e3a01003,eb000000,eafffffe,e3a02000,e3a03000,e1520001,a000004,e590c000,e083300c,e2822001,
+e2800004,eafffff8,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\Denali\Desktop\inclass\project06\sum_array_main_a.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="1340"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="140" y="320"/>
+      <p2 x="180" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="320"/>
+      <p2 x="600" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="640"/>
+      <p2 x="180" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1280"/>
+      <p2 x="180" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="900"/>
+      <p2 x="380" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="260"/>
+      <p2 x="600" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="200"/>
+      <p2 x="180" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="200"/>
+      <p2 x="600" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="520"/>
+      <p2 x="180" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1160"/>
+      <p2 x="180" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="460"/>
+      <p2 x="600" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="780"/>
+      <p2 x="360" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="400"/>
+      <p2 x="600" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="400"/>
+      <p2 x="180" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1040"/>
+      <p2 x="180" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1360"/>
+      <p2 x="460" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="340"/>
+      <p2 x="760" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="340"/>
+      <p2 x="600" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="660"/>
+      <p2 x="340" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="920"/>
+      <p2 x="180" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="280"/>
+      <p2 x="180" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="280"/>
+      <p2 x="600" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1240"/>
+      <p2 x="180" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="540"/>
+      <p2 x="320" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="220"/>
+      <p2 x="600" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1120"/>
+      <p2 x="180" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="160"/>
+      <p2 x="120" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="160"/>
+      <p2 x="180" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="480"/>
+      <p2 x="600" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="800"/>
+      <p2 x="180" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="420"/>
+      <p2 x="300" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="420"/>
+      <p2 x="600" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1380"/>
+      <p2 x="180" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="680"/>
+      <p2 x="180" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1000"/>
+      <p2 x="180" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="360"/>
+      <p2 x="600" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="300"/>
+      <p2 x="280" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="300"/>
+      <p2 x="600" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1260"/>
+      <p2 x="440" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="880"/>
+      <p2 x="180" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="560"/>
+      <p2 x="180" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="240"/>
+      <p2 x="600" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="180"/>
+      <p2 x="600" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1140"/>
+      <p2 x="420" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="440"/>
+      <p2 x="180" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="440"/>
+      <p2 x="600" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="120"/>
+      <p2 x="140" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="760"/>
+      <p2 x="180" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1020"/>
+      <p2 x="400" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1340"/>
+      <p2 x="180" y="1340"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="380"/>
+      <p2 x="600" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="240"/>
+      <p2 x="320" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="340"/>
+      <p2 x="420" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="280"/>
+      <p2 x="360" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="120"/>
+      <p2 x="140" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1040"/>
+      <p2 x="140" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="800"/>
+      <p2 x="140" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="560"/>
+      <p2 x="140" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="320"/>
+      <p2 x="140" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1160"/>
+      <p2 x="140" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="920"/>
+      <p2 x="140" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="680"/>
+      <p2 x="140" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="440"/>
+      <p2 x="140" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="200"/>
+      <p2 x="140" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="1280"/>
+      <p2 x="140" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="100"/>
+      <p2 x="620" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="220"/>
+      <p2 x="300" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="380"/>
+      <p2 x="460" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="320"/>
+      <p2 x="400" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="260"/>
+      <p2 x="340" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="160"/>
+      <p2 x="120" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="640"/>
+      <p2 x="120" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="400"/>
+      <p2 x="120" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1240"/>
+      <p2 x="120" y="1340"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1000"/>
+      <p2 x="120" y="1120"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="760"/>
+      <p2 x="120" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="520"/>
+      <p2 x="120" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="280"/>
+      <p2 x="120" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="1120"/>
+      <p2 x="120" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="880"/>
+      <p2 x="120" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="200"/>
+      <p2 x="280" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="360"/>
+      <p2 x="440" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="300"/>
+      <p2 x="380" y="900"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
